@@ -1,0 +1,1 @@
+web: gunicorn carebot.wsgi --log-file -
