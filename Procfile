@@ -1,1 +1,1 @@
-web: gunicorn carebot.wsgi --log-file -
+web: python carebot/manage.py run_gunicorn -b "0.0.0.0:$PORT" -w 3
