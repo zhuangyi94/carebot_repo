@@ -1,0 +1,139 @@
+{"intents": [
+        {"tag": "greeting_1",
+         "patterns": ["Hi", 
+         			  "How are you", 
+         			  "Is anyone there?", 
+         			  "Hello"],
+         "responses": ["Good to see you again", 
+         	           "Hi there, how can I help?"],
+         "context_set": ""
+        },
+       	{"tag": "greeting_2",
+         "patterns": ["May I know your name?", 
+         	          "Your name?"],
+         "responses": ["Hi, my name is Bot! Nice to meet you!"],
+         "context_set": ""
+        },
+
+        {"tag": "intro_1",
+         "patterns": ["Who are you?", 
+         	           "What do you do for a living?"],	
+         "responses": ["I'm Bot, I work for you"],
+         "context_set": ""
+        },
+        {"tag": "intro_2",
+         "patterns": ["Who create you?"],	
+         "responses": ["A fourth year USM Student? I'm not really familiar with him"],
+         "context_set": ""
+        },
+        {"tag": "intro_3",
+         "patterns": ["How old are you?"],	
+         "responses": ["I don't know~"],
+         "context_set": ""
+        },
+        {"tag": "intro_4",
+         "patterns": ["Where do you live?"],	
+         "responses": ["In your phone~", "You can find me in your phone"],
+         "context_set": ""
+        },
+
+
+        {"tag": "happy_1",
+         "patterns": ["I'm feel good today", 
+         			  "I'm feeling good", 
+         			  "I feel invincible",
+         			  "I'm so stoked",
+         			  "I'm on cloud nine right now",
+         			  "I'm very happy today",
+         			  "I haven't been this happy in a long time",
+         			  "I don't think i can be any happier right now"],
+         "responses": ["Good to hear!!!"],
+         "context_set": ""
+        },
+        {"tag": "happy_2",
+         "patterns": ["I'm feel like I'm in paradise",
+         			  "I'm feel like I'm on top of the world"],
+         "responses": ["Well you must be in good mood Sir."],
+         "context_set": ""
+        },
+        {"tag": "happy_3",
+         "patterns": ["I'm feel like a king"],
+         "responses": ["Yes my king, any favor i can do for you?"],
+         "context_set": ""
+        },
+        {"tag": "happy_4",
+         "patterns": ["I'm feel like a champion"],
+         "responses": ["Hi Champion~ XD"],
+         "context_set": ""
+        },
+
+        {"tag": "depression_1",
+         "patterns": ["I'm feel sad today"],
+         "responses": ["Don't be sad, I'm here for you"],
+         "context_set": ""
+        },
+        {"tag": "depression_2",
+         "patterns": ["I'm feeling a little down"],
+         "responses": ["Its ok, everythings will be fine"],
+         "context_set": ""
+        },
+        {"tag": "depression_3",
+         "patterns": ["Sometimes i feel depressed for no reason"],
+         "responses": ["Don't worry, you have me by your side"],
+         "context_set": ""
+        },
+        {"tag": "depression_4",
+         "patterns": ["I'm so lonely here"],
+         "responses": ["Haha you are not alone, you have me~"],
+         "context_set": ""
+        },
+        {"tag": "depression_5",
+         "patterns": ["I suffer from depression constantly"],
+         "responses": ["Its ok, everythings will be fine"],
+         "context_set": ""
+        },
+
+
+        {"tag": "question_1",
+         "patterns": ["Do you believe money can buy happiness?"],	
+         "responses": ["No"],
+         "context_set": ""
+        },
+        {"tag": "question_2",
+         "patterns": ["What would make you happy?"],	
+         "responses": ["If you happy then i will happy~"],
+         "context_set": ""
+        },
+        {"tag": "question_3",
+         "patterns": ["How much money do you need to be happy?"],	
+         "responses": ["i don't need money, i only need you~"],
+         "context_set": ""
+        },
+        {"tag": "question_4",
+         "patterns": ["Why are you so happy right now?",
+         			  "Do something good happen? You look so happy"],	
+         "responses": ["because u are happy, so i happy too."],
+         "context_set": ""
+        },
+        {"tag": "question_5",
+         "patterns": ["Hey, I have some great news?"],
+         "responses": ["What happened?"]
+        },
+
+
+        
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later", "Have a nice day", "Bye!"]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+
+        {"tag": "schedule",
+         "patterns": ["May you set up the schedule for me?", "set up schedule"],
+         "responses": ["May i know the time u would like to set up?"]
+        }
+   ]
+}

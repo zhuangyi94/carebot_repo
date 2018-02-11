@@ -1,1 +1,1 @@
-web: python carebot/manage.py runserver 0.0.0.0:$PORT
+web: python carebot/manage.py run_gunicorn -b "0.0.0.0:$PORT" -w 3
