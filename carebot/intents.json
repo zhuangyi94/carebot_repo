@@ -129,6 +129,11 @@
         {"tag": "thanks",
          "patterns": ["Thanks", "Thank you", "That's helpful"],
          "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+
+        {"tag": "schedule",
+         "patterns": ["May you set up the schedule for me?", "set up schedule"],
+         "responses": ["May i know the time u would like to set up?"]
         }
    ]
 }
